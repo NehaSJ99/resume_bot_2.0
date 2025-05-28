@@ -1,11 +1,9 @@
 langchain
 langgraph
-langchain-core
-langchain-community
-python-dotenv
-langchain-openai
+langchain_community
+langchain_core
+langchain_groq
+langchain_openai
 faiss-cpu
-fastapi
-uvicorn
-langserve
-pypdf
+streamlit
+python-dotenv
