@@ -46,8 +46,8 @@ This project extends the traditional RAG pipeline by incorporating **LangGraph**
 git clone https://github.com/your-username/resume_bot_2.0.git
 cd resume_bot_2.0
 
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+conda create -p venev python==3.10 -y
+conda activate venv
 
 pip install -r requirements.txt
 ```
