@@ -3,9 +3,26 @@
 import streamlit as st
 from graph.builder import build_app
 
-st.set_page_config(page_title="NehaGPT - Resume Assistant", layout="wide")
+st.set_page_config(page_title="NehaGPT - Resume Assistant", layout="centered")
+# Inject custom CSS to restrict width
+st.markdown("""
+    <style>
+        .main .block-container {
+            max-width: 400px;
+            padding-left: 10rem;
+            padding-right: 10rem;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
+# Add Back button
+if st.button("Back to Portfolio"):
+    st.markdown("""
+        <meta http-equiv="refresh" content="0; url='https://nehasjportfolio.vercel.app/'" />
+    """, unsafe_allow_html=True)
 
 # Title and intro
+st.image("banner.png", width=1000)
 st.title("NehaGPT - Ask About Neha Jagtap")
 
 with st.expander("⚠️ Disclaimer"):
@@ -21,7 +38,6 @@ if "graph" not in st.session_state:
     st.session_state.graph = build_app()
 
 # Chat input at the bottom
-st.markdown("### Ask something about Neha's resume")
 user_input = st.chat_input("Type your question here...")
 
 # Process input
