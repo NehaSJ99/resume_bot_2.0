@@ -1,6 +1,6 @@
 # Resume Bot 2.0
 
-**Resume Bot 2.0** is an intelligent, resume-aware assistant built using an **adaptive Retrieval-Augmented Generation (RAG)** architecture. This is a updated version of my previos repo (https://github.com/NehaSJ99/resume-chatbot) of traditional RAG. It answers user questions about a candidate’s professional background (such as work experience, projects, and achievements) by dynamically retrieving relevant information from a PDF resume and validating generated responses.
+**Resume Bot 2.0** is an intelligent, resume-aware assistant built using an **adaptive Retrieval-Augmented Generation (RAG)** architecture. This is a updated version of my previous repo (https://github.com/NehaSJ99/resume-chatbot) of traditional RAG. It answers user questions about a candidate’s professional background (such as work experience, projects, and achievements) by dynamically retrieving relevant information from a PDF resume and validating generated responses.
 
 ## Overview
 
