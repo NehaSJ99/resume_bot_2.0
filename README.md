@@ -28,7 +28,7 @@ This project extends the traditional RAG pipeline by incorporating **LangGraph**
   - Responses are dynamically generated based on the latest resume content.
   - Previous context is retained in a session for continuity.
  
-   **Monitoring and Debugging visa LangSmith Framework**
+   **Monitoring and Debugging via LangSmith Framework**
    - LangSmith was used to trace each step in the RAG pipeline, from initial query to final response.
    - Enabled fast debugging by capturing all intermediate prompts, inputs, and outputs.
    - Provided a visual overview of the LangGraph execution path for better interpretability.
